@@ -1,4 +1,4 @@
-const newapp = Vue.createApp({
+const app = Vue.createApp({
     data() {
         return {
             name: 'Arlenis',
@@ -7,4 +7,4 @@ const newapp = Vue.createApp({
         }   
     }
 });
-newapp.mount('#assignment');
+app.mount('#assignment');
